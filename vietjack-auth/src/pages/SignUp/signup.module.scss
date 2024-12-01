@@ -1,0 +1,17 @@
+@import '@/styles/colors';
+
+.wrapOTP {
+  display: flex;
+}
+
+.btnSendOTP {
+  text-wrap: nowrap;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 13px;
+  cursor: pointer;
+  background-color: $primary500;
+  border-radius: 6px;
+  margin-left: 8px;
+  color: $neutral0;
+}

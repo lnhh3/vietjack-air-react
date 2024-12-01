@@ -1,0 +1,5 @@
+GET http://localhost:8080/api/auth/auth-info
+Content-Type: application/json
+auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3MGE3M2YwYzAwY2VhZWQyYTZlNzM2NCIsImVtYWlsIjoiZGFuZ2R1eWR1YzE5MDhAZ21haWwuY29tIiwiaWF0IjoxNzI4NzQ0MzYxLCJleHAiOjE3Mjg4MzA3NjF9._KYTZfMDHdWJCDk4SLHAEmzlErWH4nkXyaLewg_elpw
+
+

@@ -1,0 +1,21 @@
+{
+  "login": "Đăng nhập",
+  "email": "Email",
+  "password": "Mật khẩu",
+  "username": "Tài khoản",
+  "signIn": "Đăng nhập",
+  "or": "hoặc",
+  "noAccount": "Chưa có tài khoản?",
+  "signUp": "Đăng ký",
+  "emailInvalid": "Vui lòng nhập địa chỉ email hợp lệ",
+  "fieldRequired": "Không được bỏ trống",
+  "minLengthMustBe": "Độ dài tối thiểu phải là {{length}} ký tự",
+  "maxLengthMustBe": "Độ dài tối đa phải là {{length}} ký tự",
+  "minNumberMustBe": "Cần có tối thiểu {{length}} {{type}}",
+  "maxNumberMustBe": "Cần có tối đa {{length}} {{type}}",
+  "confirmPassword": "Xác nhận mật khẩu",
+  "firstName": "Tên của bạn",
+  "lastName": "Họ của bạn",
+  "sendOTP": "Gửi OTP",
+  "doYouAlreadyHaveAnAccount": "Bạn đã có tài khoản?"
+}

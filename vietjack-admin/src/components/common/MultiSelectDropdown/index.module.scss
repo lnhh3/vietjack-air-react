@@ -1,0 +1,7 @@
+.base {
+  @apply relative w-full rounded-lg border border-gray-300 bg-white px-[14px] py-2 pl-3 pr-10 text-left text-gray-500 placeholder-gray-300 focus:border-primary-300 focus:outline focus:outline-4 focus:outline-primary-50;
+}
+
+.placeholder {
+  @apply block truncate text-gray-500;
+}

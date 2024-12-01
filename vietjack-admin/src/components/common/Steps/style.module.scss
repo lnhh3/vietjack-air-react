@@ -1,0 +1,27 @@
+.active {
+  .circle {
+    @apply border-blue-600 bg-blue-50;
+    div {
+      @apply bg-blue-600;
+    }
+  }
+
+  .label {
+    @apply text-blue-600;
+  }
+}
+
+.completed {
+  @apply bg-blue-50;
+
+  .circle {
+    @apply border-blue-600 bg-blue-50;
+    div {
+      @apply bg-blue-600;
+    }
+  }
+
+  .label {
+    @apply text-blue-600;
+  }
+}

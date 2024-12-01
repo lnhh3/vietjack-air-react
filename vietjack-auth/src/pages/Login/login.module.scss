@@ -1,0 +1,105 @@
+@import '@/styles/colors';
+
+.container {
+  width: 350px;
+  max-width: 100%;
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrapForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.headingLogo {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin: -32px 0;
+}
+
+.logoLeft {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: flex-start;
+  width: 64px;
+  height: 64px;
+}
+
+.logoRight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-family: 'Inter-BlackItalic';
+  text-wrap: nowrap;
+  text-align: center;
+  padding: 16px;
+}
+
+.headingSignIn {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+
+.buttonIcon {
+  color: $neutral500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnSubmit {
+  margin-top: 12px;
+}
+
+.separateContainer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  color: $neutral300;
+  font-family: 'Inter-Light';
+
+  .separate {
+    flex: 1;
+    height: 1px;
+    background-color: rgba($neutral200, 0.8);
+  }
+}
+.btnGoogle {
+  background-color: $primary500 !important;
+  color: $neutral0 !important;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.noAccount {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 13px;
+  color: $neutral400;
+
+  a {
+    color: $primary500;
+  }
+}
+
+.errorMessage {
+  font-size: 13px;
+  margin-top: 4px;
+  color: $error500;
+}

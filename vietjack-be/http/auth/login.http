@@ -1,0 +1,8 @@
+POST http://localhost:8080/api/auth
+Content-Type: application/json
+
+{
+  "type": "OTP",
+  "email": "dangduyduc1908@gmail.com",
+  "otp": "JAUKCQ"
+}
