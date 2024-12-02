@@ -48,8 +48,8 @@ async function bootstrap() {
   );
 
   const config = new DocumentBuilder()
-    .setTitle('DesignHub API')
-    .setDescription('Document API for DesignHub')
+    .setTitle('VietjackAir API')
+    .setDescription('Document API for VietjackAir')
     .setVersion('1.0')
     .addApiKey(
       { type: 'apiKey', name: Constants.AUTH_TOKEN, in: 'header' },
